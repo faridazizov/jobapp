@@ -1,0 +1,28 @@
+{
+  "name": "jobapp",
+  "version": "1.0.0",
+  "description": "this is job web App with nodejs and expressjs",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faridazizov/jobapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faridazizov/jobapp/issues"
+  },
+  "homepage": "https://github.com/faridazizov/jobapp#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "pug": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
